@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formular</title>
+</head>
+<body>
+	<style type="text/css" >
+	table{
+		font-family: arial;
+		border:0px solid black;
+		border-collapse: collapse;
+
+		}	
+	h1{
+		background-color: gray}
+	th, td {
+    	padding: 3px;
+    	width: 225px;
+}
+	</style>
+<table>
+	<form>
+<h1>Registration</h1>	
+<tr>
+	<td>Name:</td>
+	<td><input type="text" maxlength="25" name="name" placeholder="Enter your name"></td>
+</tr>		
+<tr>
+	<td>Password:</td>
+	<td><input type="Password" name="password"></td>
+</tr>
+<tr>
+	<td>Email:</td>
+	<td><input type="Email" name="Email"></td>
+</tr>
+<tr>
+	<td>Date of Birth:</td>
+	<td><input type="Date" name="Date" placeholder="dd.mm.rr"></td>
+</tr>
+<tr>
+	<td>Grade:</td>
+	<td><input type="text" maxlength="3" name="Grade" ></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="radio" name="gender" value="male"checked> Male</td>
+</tr>
+<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="gender" value="female">Female</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="radio" name="marital status" value="marital status" checked="">Single</td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>Marital Status</td>
+	<td><input type="radio" name="marital status" value="marital status">Married</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="radio" name="marital status" value="marital status">Divorced</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="radio" name="marital status" value="marital status">Widower</td>
+</tr>
+<tr>
+	<td></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="checkbox" name="languages" value="English">English</td>
+</tr>
+<tr>
+	<td>Languages:</td>
+	<td><input type="checkbox" name="languages" value="German">German</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="checkbox" name="languages" value="Russian">Russian</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="checkbox" name="languages" value="Other">Other</td>
+</tr>
+<tr>
+	<td>Nationality:</td>
+	<td><select>
+		<option>Slovak</option>
+		<option>Maltese</option>
+		<option>Swedes</option>
+		<option>Peruvians</option>
+		<option>Puerto Ricans</option>
+		<option>Japanese</option>
+		<option>Yemenis</option>
+		<option>Mongolians</option>
+		<option>Irish</option>
+	</select></td>
+</tr>
+<tr>
+	<td>About </td>
+	<td><textarea rows="5">Text</textarea></td>
+</tr>
+<tr>
+	<td>Your CV:</td>
+	<td><button>Vybrať súbor</button> Nie je vybratý žiadny súbor.</td>
+</tr>
+<tr>
+	<td>Are you happy? </td>
+	<td>YES<input type="range" name="rank" min="no" max="yes">NO</td>
+</tr>
+<tr>
+	<td><button>Reset</button></td>
+	<td><button>Submit</button></td>
+</tr>
+
+
+	</form>
+</table>
+</body>
+</html>
